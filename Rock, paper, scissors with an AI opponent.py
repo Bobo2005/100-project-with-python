@@ -4,10 +4,10 @@ history = []
 
 def ai_move():
     if not history: return random.choice(choices)
-    # Count player choices
+    
     counts = {c: history.count(c) for c in choices}
     common = max(counts, key=counts.get)
-    # Counter the player's most common move
+  
     counter = {"rock":"paper","paper":"scissors","scissors":"rock"}
     return counter[common]
 
