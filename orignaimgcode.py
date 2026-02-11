@@ -1,4 +1,5 @@
 """Download all images from a web page."""
+"bobo"
 
 from __future__ import annotations
 
